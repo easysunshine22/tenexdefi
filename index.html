@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TENEXDEFI OFFICIAL LANDING PAGE</title>
+    <link rel="shortcut icon" type="image/jpg" href="./img/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsiveness.css">
+
+</head>
+
+<body>
+    <section id="home" class="home-section section-container">
+        <div class="header-wrapper">
+            <div class="inner-header-wrapper">
+                <div class="logo blackLogo">
+                    <a href="#"><img src="./img/logo.png" alt=""></a>
+                    <!-- <a href="#">tnx<strong>defi</strong></a> -->
+                </div>
+                <nav class="top-nav">
+                    <ul>
+                        <!-- <li><a href="#about">About</a></li>
+                        <li><a href="#ourservice">Feactures</a></li> -->
+                        <li><a target="_blank" href="https://twitter.com/tenexdefi">Twitter</a></li>
+                        <li><a target="_blank" href="https://t.me/tenexdefi">Telegram</a></li>
+                        <li><a target="_blank"
+                                href="https://BscScan.com/token/0x552de42faef036196bf4ed55356364b5dbc09475">BscScan</a>
+                        </li>
+                        <li><a href="#">road map</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-toggle" onclick="myCloseBar(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="inner-home-container">
+            <div id="home-article" class="home-article-container">
+                <h2>TENEX DEFI</h2>
+                <p class="intro">
+                    Voluptatem ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explica. Nemo enim ipsam voluptatem quia. Ut quis enim.
+                </p>
+                <p class="btn-sell-buy">
+                    <a target="_blank"
+                        href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=BNB&outputCurrency=0x552de42faef036196bf4ed55356364b5dbc09475">Buy
+                        / Sell</a>
+                    <a href="#">White Paper</a>
+                </p>
+            </div>
+            <div class="home-img-container">
+                <img class="vert-move" src="./img/rocket.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div id="footer" class="footer-container">
+        <div class="top-footer-container">
+            <div class="left-footer">
+                <div class="footer-logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+            </div>
+            <div class="middle-footer">
+                <h2>Links</h2>
+                <div class="footer-links">
+                    <ul>
+                        <li><a target="_blank" href="https://twitter.com/tenexdefi">Twitter</a></li>
+                        <li><a target="_blank" href="https://t.me/tenexdefi">Telegram</a></li>
+                        <li><a target="_blank"
+                                href="https://BscScan.com/token/0x552de42faef036196bf4ed55356364b5dbc09475">BscScan</a>
+                        </li>
+                        <li><a href="#">White Paper</a></li>
+                        <li><a href="#">Road Map</a></li>
+                </div>
+            </div>
+            <div class="right-footer">
+
+            </div>
+        </div>
+        <div class="bottom-footer-container">
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved.
+        </div>
+
+
+        <!-- nav-script -->
+        <script src="js/nav-script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script>
+            $(function () {
+                $(window).on("scroll", function () {
+                    if ($(window).scrollTop() > 80) {
+                        $(".header-wrapper").addClass("headerChangeColor");
+                    } else {
+                        //remove the background property so it comes transparent again (defined in your css)
+                        $(".header-wrapper").removeClass("headerChangeColor");
+                    }
+                });
+            });
+        </script>
+
+</body>
+
+</html>
