@@ -78,15 +78,12 @@
     text-align: center;
   }
 }
+@media (max-width: 363px) {
+  .home-article-container .intro {
+    font-size: 25px;
+  }
+}
 @media (max-width: 767px) {
-  /* .home-section {
-    background-image: linear-gradient(
-      to top,
-      rgba(19, 119, 212, 0.863),
-      rgba(0, 0, 0, 0.301)
-    ),
-    url("../img/bbgbg.png");
-  } */
   .top-footer-container {
     flex-direction: column;
     justify-content: center;
