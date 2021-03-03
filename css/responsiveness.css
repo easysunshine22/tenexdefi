@@ -49,7 +49,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
   }
   .home-article-container {
     text-align: center;
@@ -75,6 +74,19 @@
     ),
     url("../img/bbgbg.png");
   } */
+  .top-footer-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .middle-footer{
+    border-left: none;
+    border-top: 1px solid rgb(197, 195, 195);
+  }
+  .right-footer{
+    border-left: none;
+  }
 }
 @media(max-width: 550px){
     .home-article-container {

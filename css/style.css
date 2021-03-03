@@ -89,15 +89,8 @@ section {
   text-decoration: none;
   color: #000;
   font-family: "Akaya Telivigala", cursive;
-  font-size: 80px;
-  background: -webkit-linear-gradient(#8c32f0, #e73587);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* background-color: linear-gradient(270deg, #8c32f0 0%, #e73587 100%); */
 }
-.logo strong {
-  font-size: 20px;
-}
+
 .inner-header-wrapper .top-nav ul {
   margin: 0;
   padding: 0;
@@ -183,12 +176,11 @@ section {
     margin-bottom: 30px;
 
 }
-.intro {
+.home-article-container .intro {
   max-width: 500px;
-  line-height: 1.8;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.925);
-  font-size: 23px;
+  line-height: 1.2;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.699);
 }
 .home-article-container .btn-sell-buy {
   margin-top: 50px;
@@ -290,5 +282,7 @@ section {
   width: 90%;
   margin: auto;
   text-align: center;
-  border: 1px solid red;
+  border-top: 1px solid rgb(197, 195, 195);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
