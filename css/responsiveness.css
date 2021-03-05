@@ -23,6 +23,7 @@
     font-size: 30px;
   }
 }
+
 @media (max-width: 822px) {
   .home-article-container h2 {
     font-size: 70px;
