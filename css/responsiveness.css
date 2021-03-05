@@ -52,6 +52,9 @@
     padding-left: 17px;
     color: #000;
   }
+  .inner-header-wrapper .top-nav .mobile-link{
+    display: block;
+  }
   .nav-btn-sell-buy {
     margin-top: 19px;
   }

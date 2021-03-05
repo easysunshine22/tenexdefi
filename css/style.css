@@ -101,6 +101,9 @@ section {
   text-transform: uppercase;
   /* font-weight: bold; */
 }
+.inner-header-wrapper .top-nav .mobile-link{
+  display: none;
+}
 .nav-btn-sell-buy{
   margin-top: 13px;
 }
