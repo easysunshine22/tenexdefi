@@ -13,6 +13,16 @@
   }
 }
 
+@media (max-width: 500px) {
+  .inner-whitepaper-container h2, .inner-roadmap-container h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 345px) {
+  .inner-whitepaper-container h2, .inner-roadmap-container h2 {
+    font-size: 30px;
+  }
+}
 @media (max-width: 822px) {
   .home-article-container h2 {
     font-size: 70px;
