@@ -246,6 +246,63 @@ section {
     100% { transform: translateY(-10px); }
 }
 
+/* WHITEPAPER PAGE START*/
+.inner-whitepaper-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  margin-top: 90px;
+  padding-top: 70px;
+}
+
+.inner-whitepaper-container h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #1e429e;
+  text-shadow: 5px 2px 20px #000;
+}
+
+/* WHITEPAPER PAGE END*/
+
+
+/* ROADMAP PAGE START*/
+.inner-roadmap-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  margin-top: 90px;
+  padding-top: 70px;
+}
+
+.inner-roadmap-container h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #1e429e;
+  text-shadow: 5px 2px 20px #000;
+}
+/* ROADMAP PAGE END*/
+
+/* LOTTERY PAGE START*/
+.inner-lottery-container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  margin-top: 90px;
+  padding-top: 70px;
+}
+
+.inner-lottery-container h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #1e429e;
+  text-shadow: 5px 2px 20px #000;
+}
+/* LOTTERY PAGE END*/
+
+
 .footer-container{
   /* border: 1px solid red; */
   background-color: rgba(209, 208, 208, 0.568);
@@ -270,6 +327,9 @@ section {
   width: 100%;
   padding-top: 13px;
 }
+.left-footer-article h2{
+  font-size: 15px;
+}
 .middle-footer{
   width: 100%;
   border-left: 1px solid rgb(197, 195, 195);
@@ -283,6 +343,7 @@ section {
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
+  font-size: 14px;
 }
 .footer-links ul li a:hover{
   text-decoration: underline;
