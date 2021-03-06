@@ -101,6 +101,9 @@ section {
   text-transform: uppercase;
   /* font-weight: bold; */
 }
+.inner-header-wrapper .top-nav .mobile-link {
+  display: none;
+}
 .nav-btn-sell-buy {
   margin-top: 13px;
 }
@@ -163,7 +166,8 @@ section {
   transform: rotate(45deg) translate(-8px, -6px);
 }
 
-.inner-whitepaper-container, .inner-roadmap-container {
+.inner-whitepaper-container,
+.inner-roadmap-container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
@@ -172,7 +176,8 @@ section {
   padding-top: 70px;
 }
 
-.inner-whitepaper-container h2, .inner-roadmap-container h2 {
+.inner-whitepaper-container h2,
+.inner-roadmap-container h2 {
   text-align: center;
   font-size: 50px;
   color: #1e429e;
