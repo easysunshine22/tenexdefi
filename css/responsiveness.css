@@ -30,6 +30,18 @@
     letter-spacing: 5px;
   }
 }
+@media (max-width: 1300px) {
+  .token-allocate-content{
+    border: 1px solid red;
+    padding-left: 60px;
+  }
+}
+@media (max-width: 1040px) {
+  .token-allocate-content{
+    border: 1px solid red;
+    padding-left: 0;
+  }
+}
 @media (max-width: 1050px) {
   .top-nav {
     position: absolute;
@@ -51,6 +63,15 @@
     border-bottom: 1px solid #d3d1d144;
     padding-left: 17px;
     color: #000;
+  }
+  .headerChangeColor{
+    top: 0;
+    color: #fff;
+    /* width: 100%; */
+    margin: auto;
+    height: 2vh;
+    position: fixed;
+    z-index: 1000;
   }
   .inner-header-wrapper .top-nav .mobile-link{
     display: block;
