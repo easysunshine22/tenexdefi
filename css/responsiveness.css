@@ -32,13 +32,11 @@
 }
 @media (max-width: 1300px) {
   .token-allocate-content{
-    border: 1px solid red;
     padding-left: 60px;
   }
 }
 @media (max-width: 1040px) {
   .token-allocate-content{
-    border: 1px solid red;
     padding-left: 0;
   }
 }
