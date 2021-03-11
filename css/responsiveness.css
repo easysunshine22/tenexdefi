@@ -30,6 +30,11 @@
     letter-spacing: 5px;
   }
 }
+@media (max-width: 400px) {
+  .inner-roadmap-container h2 {
+    font-size: 30px;
+  }
+}
 @media (max-width: 1300px) {
   .token-allocate-content{
     padding-left: 60px;

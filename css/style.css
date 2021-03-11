@@ -30,7 +30,7 @@ section {
 }
 .header-wrapper {
   width: 100%;
-  height:  1vh;
+  height: 1vh;
   position: fixed;
   background-color: #cfcece;
   z-index: 9999;
@@ -55,8 +55,8 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-} 
-.logo{
+}
+.logo {
   padding-top: 5px;
 }
 .logo img {
@@ -94,24 +94,24 @@ section {
   text-transform: uppercase;
   /* font-weight: bold; */
 }
-.inner-header-wrapper .top-nav .mobile-link{
+.inner-header-wrapper .top-nav .mobile-link {
   display: none;
 }
-.nav-btn-sell-buy{
+.nav-btn-sell-buy {
   margin-top: 13px;
 }
-.nav-btn-sell-buy a{
-	background: linear-gradient(270deg, #8c32f0 0%, #1E429E 100%);
+.nav-btn-sell-buy a {
+  background: linear-gradient(270deg, #8c32f0 0%, #1e429e 100%);
   padding: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
   text-transform: uppercase;
 }
-.nav-btn-sell-buy a:hover{
-  background: linear-gradient(270deg, #3a353f 0%, #1E429E 100%);
-  transition: .5s;
+.nav-btn-sell-buy a:hover {
+  background: linear-gradient(270deg, #3a353f 0%, #1e429e 100%);
+  transition: 0.5s;
 }
 .inner-header-wrapper .top-nav ul li a:hover,
 .inner-header-wrapper .top-nav ul li a.active {
@@ -177,8 +177,7 @@ section {
   letter-spacing: 3px;
   color: #000;
   text-transform: uppercase;
-    margin-bottom: 30px;
-
+  margin-bottom: 30px;
 }
 .home-article-container .intro {
   max-width: 500px;
@@ -186,7 +185,7 @@ section {
   font-size: 35px;
   color: rgba(0, 0, 0, 0.699);
 }
-.home-article-container .intro img{
+.home-article-container .intro img {
   height: 70px;
 }
 .home-article-container .btn-sell-buy {
@@ -201,14 +200,14 @@ section {
   padding-right: 35px;
   text-decoration: none;
   color: #ffffff;
-  background: linear-gradient(270deg, #8c32f0 0%, #1E429E 100%);
+  background: linear-gradient(270deg, #8c32f0 0%, #1e429e 100%);
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
   transition: 0.5s;
 }
-.home-article-container a:hover{
-  background: linear-gradient(270deg, #3a353f 0%, #1E429E 100%);
+.home-article-container a:hover {
+  background: linear-gradient(270deg, #3a353f 0%, #1e429e 100%);
 }
 .home-img-container {
   width: 100%;
@@ -223,25 +222,32 @@ section {
 }
 
 .home-img-container img.vert-move {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
 }
 .home-img-container img.vert-move {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
 }
 @-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 @keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 /* WHITEPAPER PAGE START*/
-.inner-whitepaper-container{
-  
+.inner-whitepaper-container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
@@ -253,9 +259,9 @@ section {
   text-align: left;
   gap: 20px;
 }
-.inner-whitepaper-container::before {    
+.inner-whitepaper-container::before {
   content: "";
-  background-image: url('../img/logo.png');
+  background-image: url("../img/logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -266,17 +272,17 @@ section {
   left: 0px;
   opacity: 0.1;
 }
-.inner-whitepaper-container .title{
+.inner-whitepaper-container .title {
   font-size: 25px;
 }
-.inner-whitepaper-container .logo-top img{
+.inner-whitepaper-container .logo-top img {
   height: 100px;
 }
-.inner-whitepaper-container p{
+.inner-whitepaper-container p {
   max-width: 900px;
   line-height: 1.5;
 }
-.inner-whitepaper-bottom-container{
+.inner-whitepaper-bottom-container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
@@ -289,22 +295,21 @@ section {
   padding-bottom: 50px;
 }
 
-.inner-whitepaper-bottom-container .title{
+.inner-whitepaper-bottom-container .title {
   text-align: center;
 }
-.inner-whitepaper-bottom-container ul{
+.inner-whitepaper-bottom-container ul {
   max-width: 850px;
   margin: auto;
 }
-.token-allocate-content{
+.token-allocate-content {
   padding-left: 160px;
 }
-.nested-list{
+.nested-list {
   width: 90%;
   margin-top: 10px;
 }
 /* WHITEPAPER PAGE END*/
-
 
 /* ROADMAP PAGE START*/
 .inner-roadmap-container {
@@ -328,7 +333,7 @@ section {
   text-shadow: 5px 2px 20px #000;
 }
 
-.inner-roadmap-container img{
+.inner-roadmap-container img {
   max-width: 100%;
 }
 /* ROADMAP PAGE END*/
@@ -351,56 +356,63 @@ section {
 }
 /* LOTTERY PAGE END*/
 
-
-.footer-container{
+.footer-container {
   background-color: rgba(209, 208, 208, 0.568);
 }
 
-.top-footer-container{
+.top-footer-container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-.footer-logo img{
+.footer-logo img {
   height: 70px;
 }
-.left-footer, .middle-footer, .right-footer{
+.left-footer,
+.middle-footer,
+.right-footer {
   min-height: 5vh;
 }
-.left-footer{
+.left-footer {
   width: 100%;
   padding-top: 13px;
   padding-bottom: 20px;
 }
-.left-footer-article h2{
+.left-footer-article h2 {
   font-size: 15px;
 }
-.middle-footer{
+.middle-footer {
   width: 100%;
   border-left: 1px solid rgb(197, 195, 195);
   padding: 20px;
 }
-.footer-links ul li{
+.right-footer {
+  padding: 20px;
+}
+.right-footer .support h2{
+  margin-bottom: 11px;
+}
+.footer-links ul li {
   list-style: none;
   margin-top: 10px;
 }
-.footer-links ul li a{
+.footer-links ul li a {
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
   font-size: 14px;
 }
-.footer-links ul li a:hover{
+.footer-links ul li a:hover {
   text-decoration: underline;
   font-weight: bold;
 }
-.right-footer{
+.right-footer {
   width: 100%;
   border-left: 1px solid rgb(197, 195, 195);
 }
-.bottom-footer-container{
+.bottom-footer-container {
   max-width: 1200px;
   width: 90%;
   margin: auto;
